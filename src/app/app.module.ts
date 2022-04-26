@@ -3,11 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
+import { SuccessAlertComponent } from './successAlert/successAlert.component';
+import { WarningAlertComponent } from './warningAlert/warningAlert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServerComponent
+    ServerComponent,
+    SuccessAlertComponent,
+    WarningAlertComponent
   ],
   imports: [
     BrowserModule
