@@ -1,3 +1,6 @@
-.warningMessage{
-    color: red;
+p{
+    color: black;
+    background-color: palevioletred;
+    border: 1px solid red;
+    font-weight: bold;
 }
